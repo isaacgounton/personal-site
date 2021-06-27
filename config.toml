@@ -1,15 +1,15 @@
-baseURL = "http://camilogarcialarotta.github.io/"
+baseURL = "http://isaacgounton.github.io/"
 languageCode = "en-us"
 title = "Personal Site"
-publishDir = "camilogarcialarotta.github.io"
+publishDir = "isaacgounton.github.io"
 
 [permalinks]
 blog = "/:filename/"
 
 [params]
 dateFormat = "Jan 2, 2006"
-author = "Camilo Garcia La Rotta"
-motto = "Go, Ruby, Typescript and cheap poetry"
+author = "Isaac Gounton"
+motto = "ReactJs, NodeJs, Python and cheap poetry"
 
 [taxonomies]
 tag = "tags"

@@ -2,35 +2,67 @@
 <html lang="en">
 
 <head>
-  {{ $title := print .Title " | " .Site.Title }}
-  {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
-  <title>{{ $title }}</title>
+  
+  
+  <title>Vik | Personal Site</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Isaac Gounton">
   <meta name="description" content="Personal website with programming projects and contact information">
   <meta name="theme-color" content="#c5c5c5">
-  {{ hugo.Generator }}
-  <link rel="icon" type="image/png" href="{{ "img/favicon.png" | relURL }}" sizes="32x32" />
-  <link rel="stylesheet" href="{{ "css/styles.css" | relURL }}">
+  <meta name="generator" content="Hugo 0.84.1" />
+  <link rel="icon" type="image/png" href="/img/favicon.png" sizes="32x32" />
+  <link rel="stylesheet" href="/css/styles.css">
 </head>
 
 <body>
   <header>
     <a href="/" title="home">
-      <img src="{{ "img/logo.png" | relURL }}" class="logo" alt="Personal logo">
+      <img src="/img/logo.png" class="logo" alt="Personal logo">
     </a>
     <div class="name">
       <a href="/" title="home">
-        <h1>{{ .Site.Params.Author }}</h1>
-        <h2>{{ .Site.Params.Motto }}</h2>
+        <h1>Isaac Gounton</h1>
+        <h2>ReactJs, NodeJs, Python and cheap poetry</h2>
       </a>
-      {{ if not .IsHome }}<h3>{{ .Title }}</h3>{{ end }}
+      <h3>Vik</h3>
     </div>
   </header>
   <hr class="top_hr">
   <main>
-    {{ block "main" . }}{{ end }}
+    
+
+
+
+
+<div>
+  <time datetime="2016-11-26">
+    <p class="meta">Nov 26, 2016</p>
+  </time>
+  
+  
+  
+  <a href="/tags/poem" alt="poem Tag">
+    <p class="meta link">poem</p>
+  </a>
+  
+</div>
+
+
+
+<div class="blog">
+  <h1 class="blog-title">Vik</h1>
+  <h3 id="vik">Vik</h3>
+<p>My wildest journey<br>
+Was not to be raised by the Andes’ mist,<br>
+Nor to fly through psychedelic dreams.</p>
+<p>It was to map your satin skin,<br>
+To conquer your bare back</p>
+<p>Across the untamed wrath<br>
+Of the Viking’s land</p>
+
+</div>
+
   </main>
   <hr class="bottom_hr">
   <footer>
@@ -38,19 +70,19 @@
       <li>
         <a href="https://www.github.com/isaacgounton" title="GitHub" role="listitem"
           aria-roledescription="GitHub profile">
-          <img src="{{ "img/github.svg" | relURL }}" class="small_icon" alt="GitHub">
+          <img src="/img/github.svg" class="small_icon" alt="GitHub">
         </a>
       </li>
       <li>
         <a href="https://www.linkedin.com/in/isaacgounton" title="LinkedIn" role="listitem"
           aria-roledescription="LinkedIn profile">
-          <img src="{{ "img/linkedin.svg" | relURL }}" class="small_icon" alt="LinkedIn">
+          <img src="/img/linkedin.svg" class="small_icon" alt="LinkedIn">
         </a>
       </li>
       <li>
         <a href="mailto:isaacgounton@gmail.com" title="Contact me" role="listitem"
           aria-roledescription="Personal email">
-          <img src="{{ "img/email.svg" | relURL }}" class="small_icon" alt="Contact me">
+          <img src="/img/email.svg" class="small_icon" alt="Contact me">
         </a>
       </li>
     </ul>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Personal Site</title>
+    <link>http://isaacgounton.github.io/tags/</link>
+    <description>Recent content in Tags on Personal Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Apr 2019 11:16:28 -0400</lastBuildDate><atom:link href="http://isaacgounton.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>brainstorming</title>
+      <link>http://isaacgounton.github.io/tags/brainstorming/</link>
+      <pubDate>Sat, 13 Apr 2019 11:16:28 -0400</pubDate>
+      
+      <guid>http://isaacgounton.github.io/tags/brainstorming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>short-story</title>
+      <link>http://isaacgounton.github.io/tags/short-story/</link>
+      <pubDate>Sun, 22 Apr 2018 11:22:57 -0400</pubDate>
+      
+      <guid>http://isaacgounton.github.io/tags/short-story/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>poem</title>
+      <link>http://isaacgounton.github.io/tags/poem/</link>
+      <pubDate>Thu, 23 Mar 2017 21:17:16 -0400</pubDate>
+      
+      <guid>http://isaacgounton.github.io/tags/poem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spanish</title>
+      <link>http://isaacgounton.github.io/tags/spanish/</link>
+      <pubDate>Wed, 15 Feb 2017 21:14:30 -0400</pubDate>
+      
+      <guid>http://isaacgounton.github.io/tags/spanish/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>french</title>
+      <link>http://isaacgounton.github.io/tags/french/</link>
+      <pubDate>Thu, 02 Jun 2016 21:29:30 -0400</pubDate>
+      
+      <guid>http://isaacgounton.github.io/tags/french/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
